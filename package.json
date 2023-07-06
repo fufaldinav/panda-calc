@@ -10,15 +10,19 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@quasar/extras": "^1.16.4",
+    "quasar": "^2.12.2",
     "vue": "^3.3.4"
   },
   "devDependencies": {
+    "@quasar/vite-plugin": "^1.4.1",
     "@rushstack/eslint-patch": "^1.2.0",
     "@vitejs/plugin-vue": "^4.2.3",
     "@vue/eslint-config-prettier": "^7.1.0",
     "eslint": "^8.39.0",
     "eslint-plugin-vue": "^9.11.0",
     "prettier": "^2.8.8",
+    "sass": "^1.32.12",
     "vite": "^4.3.9"
   }
 }
