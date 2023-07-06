@@ -5,9 +5,11 @@ import { Quasar } from 'quasar'
 import quasarLang from 'quasar/lang/ru'
 
 import '@quasar/extras/roboto-font/roboto-font.css'
-import 'quasar/src/css/index.sass'
+import '@quasar/extras/material-icons/material-icons.css'
 
-import App from './App.vue'
+import 'quasar/dist/quasar.css'
+
+import App from './components/App.vue'
 
 createApp(App)
   .use(Quasar, {
